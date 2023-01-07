@@ -44,39 +44,40 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDzY5j0RDbuzqVAGgQoEbCYetYRmbH-IvM',
-    appId: '1:931337952785:web:22e587d9c55c4ba4f15bb0',
-    messagingSenderId: '931337952785',
-    projectId: 'notes-app-489a9',
-    authDomain: 'notes-app-489a9.firebaseapp.com',
-    storageBucket: 'notes-app-489a9.appspot.com',
+    apiKey: 'Generate your api key',
+    appId: 'Get your app Id',
+    messagingSenderId:'get your sender ID',
+    projectId: 'create your project Id',
+    authDomain: '',
+    storageBucket: '',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBpV-eLalJ_adu4kXzRgMszxDH1kxPkL_A',
-    appId: '1:931337952785:android:ab4829dac6a62fa2f15bb0',
-    messagingSenderId: '931337952785',
-    projectId: 'notes-app-489a9',
-    storageBucket: 'notes-app-489a9.appspot.com',
+    apiKey: 'Generate your api key',
+    appId: 'Get your app Id',
+    messagingSenderId: 'get your sender ID',
+    projectId: 'create your project Id',
+    storageBucket: '',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyAxxLEfezc-j8TZFbamNvlqrpQVm92yC7A',
-    appId: '1:931337952785:ios:9afab3f34ec95852f15bb0',
-    messagingSenderId: '931337952785',
-    projectId: 'notes-app-489a9',
-    storageBucket: 'notes-app-489a9.appspot.com',
-    iosClientId: '931337952785-afurphau4inb1a9ncuc4pt9cg103ils3.apps.googleusercontent.com',
-    iosBundleId: 'com.example.notesApp',
+    apiKey:'Generate your api key',
+    appId:'Get your app Id',
+    messagingSenderId: 'get your sender ID',
+    projectId:  'create your project Id',
+    storageBucket: 'create your project Id',
+    iosClientId: '',
+    iosBundleId: '',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyAxxLEfezc-j8TZFbamNvlqrpQVm92yC7A',
-    appId: '1:931337952785:ios:9afab3f34ec95852f15bb0',
-    messagingSenderId: '931337952785',
-    projectId: 'notes-app-489a9',
+    apiKey: 'Generate your api key',,
+    appId:'Get your app Id',
+    messagingSenderId: 'get your sender ID',
+    projectId: 'create your project Id',
     storageBucket: 'notes-app-489a9.appspot.com',
-    iosClientId: '931337952785-afurphau4inb1a9ncuc4pt9cg103ils3.apps.googleusercontent.com',
-    iosBundleId: 'com.example.notesApp',
+    iosClientId: '',
+    iosBundleId: '',
   );
 }
+// Basicly delete this file and create yours
