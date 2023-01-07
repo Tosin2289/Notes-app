@@ -2,19 +2,19 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:notes_app/screens/note_editor.dart';
-import 'package:notes_app/screens/note_reader.dart';
+import 'package:notes_app/mobile/screens/note_editor.dart';
+import 'package:notes_app/mobile/screens/note_reader.dart';
 import 'package:notes_app/style/app_style.dart';
-import 'package:notes_app/widgets/note_card.dart';
+import 'package:notes_app/mobile/widgets/note_card.dart';
 
-class HomePage extends StatefulWidget {
-  const HomePage({Key? key}) : super(key: key);
+class HomePagem extends StatefulWidget {
+  const HomePagem({Key? key}) : super(key: key);
 
   @override
-  State<HomePage> createState() => _HomePageState();
+  State<HomePagem> createState() => _HomePagemState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _HomePagemState extends State<HomePagem> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
